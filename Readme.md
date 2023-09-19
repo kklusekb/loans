@@ -9,5 +9,5 @@ A program that creates a database of potential borrowers,
 determines their creditworthiness and assigns loans to them.
 
 Main classes:
-- michal.jakubiak.loan.Client
-- loan
+- Client
+- Loan
