@@ -1,5 +1,6 @@
 package michal.jakubiak.loan;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class UserInputCommand {
@@ -26,7 +27,13 @@ public class UserInputCommand {
             String[] array = txt.split("\\s");
             this.command = array[0];
             if (array.length>1)   action = array[1];
+            param = new ArrayList<>();
+            for(int i=2;i<array.length;i++)
+            {
+                param.add(array[i]);
+            }
         }
+
     }
 
     public String getCommand() {

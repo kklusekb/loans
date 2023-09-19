@@ -18,12 +18,22 @@ public class CommandHandler {
                 break;
             case "client":
                 System.out.println("Showing clients information's...");
+                if (action.equals("add")) {
+                    System.out.println("Adding a client to date base" + param);
+                }
+
                 break;
-            case "loan" :
+
+
+            case "loan":
                 System.out.println("Showing loans information...");
                 break;
+
+
             default:
                 System.out.println("Command not recognized");
+
+
         }
 
     }
