@@ -8,6 +8,15 @@ public class UserInputCommand {
     }
 
     private String command;
+
+    public String getAction() {
+        return action;
+    }
+
+    public List<String> getParam() {
+        return param;
+    }
+
     private String action;
     private List<String> param;
 
