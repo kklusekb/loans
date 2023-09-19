@@ -17,7 +17,7 @@ public class Frame extends JFrame {
         setSize(600, 500);
 
         JTextArea textArea = new JTextArea();
-        inputField = new JTextField();
+        inputField = new JTextField("Commands...");
         textArea.setEditable(false);
         textArea.setSelectionColor(Color.cyan);
         JScrollPane scrollPane = new JScrollPane(textArea);
